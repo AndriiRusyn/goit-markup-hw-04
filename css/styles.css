@@ -683,8 +683,8 @@ img {
 }
 
 
-
-.icon-advanrage {
+/* 
+.icon-advantage {
 
   display: block;
   content: "";
@@ -696,7 +696,7 @@ img {
   background-repeat: no-repeat;
   background: center;
   background-color: var(--Light-CLOUD);
-}
+} */
 
 
 
@@ -719,7 +719,6 @@ img {
   border-radius: 4px;
   width: 100%;
   height: 100%;
-
 }
 
 .icon-advantage {
@@ -737,3 +736,7 @@ fill: var(--Pressed-State-OCEAN );
 .icon-client:focus {
   border-color: var(--Pressed-State-OCEAN);
 }
+
+
+
+/* links footer */
