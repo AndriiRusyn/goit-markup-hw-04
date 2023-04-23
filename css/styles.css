@@ -571,6 +571,31 @@ img {
   margin-bottom: 16px;
 }
 
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    gap: 120px;
+}
+
+.footer-container-one {
+
+}
+
+.footer-container-two {
+
+}
+
+.footer-social-text {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--Accent-CORNFLOWER);
+}
+
+
 /* decorative elements  */
 
 /* .conteiner {
