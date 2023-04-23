@@ -740,3 +740,36 @@ fill: var(--Pressed-State-OCEAN );
 
 
 /* links footer */
+
+.footer-container-two {
+ 
+
+}
+
+
+.socials-item-footer {
+
+}
+
+.socials-link-footer {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    transition: background-color var(--trans-hover);
+
+}
+
+.social-icon-footer {
+
+}
+
+.socials-footer {
+
+    display: flex;
+    gap: 16px;
+
+}
