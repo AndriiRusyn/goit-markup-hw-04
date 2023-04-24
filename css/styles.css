@@ -816,8 +816,13 @@ fill: var(--Pressed-State-OCEAN);
     align-items: center;
     background-color: var(--Primary-Brand-IRIS);
     border-radius: 50%;
-
 }
+
+.socials-link-footer:hover,
+.socials-link-footer:focus {
+  background-color: var(--Success-GREEN);
+}
+
 
 .socials-link {
     display: flex;
