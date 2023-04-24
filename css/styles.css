@@ -370,7 +370,7 @@ img {
 .our-team {
   display: flex;
   flex-wrap: wrap;
-  
+  gap:24px;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -673,12 +673,12 @@ img {
 }
 
 .social-icon {
-  fill: var(--Primary-Brand-IRIS);
+  fill: var(--Pressed-State-OCEAN);
 }
 
 .social-icon:hover,
 .social-icon:focus {
-  fill: var(--Pressed-State-OCEAN);
+  fill: var(--Primary-Brand-IRIS);
 }
 
 
@@ -706,6 +706,20 @@ img {
       padding-bottom: 120px;
 }
 
+.section-customers {
+  color: var(--Dark-NAVY-BLUE);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  margin-bottom: 72px;
+
+  text-transform: capitalize;
+}
+
+
 
 .customers-list {
     margin-bottom: 72px;
@@ -714,20 +728,40 @@ img {
 }
 
 .icon-client {
-  border: 1px solid var(--Subtle-Text-Light-Slate);
-  border-radius: 4px;
-  width: 100%;
-  height: 100%;
+ 
+    width: calc((100% - 120px) / 6);
+    height: 88px;
 }
 
 .icon-customer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
   fill: var(--Subtle-Text-Light-Slate);
+  border: 1px solid var(--Subtle-Text-Light-Slate);
+  border-radius: 4px;
+}
+
+.customer-link {
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--Subtle-Text-Light-Slate);
+    border-radius: 4px;
+    color: var(--Subtle-Text-Light-Slate);
 }
 
 .icon-customer:hover,
 .icon-customer:focus {
 border-color:var(--Pressed-State-OCEAN);
-fill: var(--Pressed-State-OCEAN );
+fill: var(--Pressed-State-OCEAN);
 
 }
 
