@@ -341,15 +341,15 @@ img {
   0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-/* .socials-link {
+.socials-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100x;
     height: 100px;
+    width: 100x;
     background-color: var(--Primary-Brand-IRIS);
     border-radius: 50%;
-} */
+}
 
 .team-image {
   border-radius: 0px 0px 4px 4px;
