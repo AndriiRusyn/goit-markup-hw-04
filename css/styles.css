@@ -285,6 +285,7 @@ img {
     justify-content: center;
     align-items: center;
     height: 112px;
+    /* width: 264px; */
     background-color: var(--Light-CLOUD);
     border-radius: 4px;
 }
@@ -714,12 +715,12 @@ img {
   height: 100%;
 }
 
-.icon-advantage {
+.icon-customer{
   fill: var(--Subtle-Text-Light-Slate);
 }
 
-.icon-advantage:hover,
-.icon-advantage:focus {
+.icon-customer:hover,
+.icon-customer:focus {
 border-color:var(--Pressed-State-OCEAN);
 fill: var(--Pressed-State-OCEAN );
 
