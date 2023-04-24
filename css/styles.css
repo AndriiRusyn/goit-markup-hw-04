@@ -333,23 +333,6 @@ img {
   padding-top: 120px;
 }
 
-.team-list {
-  letter-spacing: 0.02em;
-  border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-   0px 1px 1px rgba(46, 47, 66, 0.16),
-  0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.socials-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    width: 100x;
-    background-color: var(--Primary-Brand-IRIS);
-    border-radius: 50%;
-}
 
 .team-image {
   border-radius: 0px 0px 4px 4px;
@@ -361,7 +344,6 @@ img {
 
 .team-title {
   text-align: center;
-  /* padding: 32px 16px; */
   padding: 32px 0;
   background-color: var(--White-background-WHITE);
 
@@ -388,9 +370,19 @@ img {
 .our-team {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  
   border-radius: 0px 0px 4px 4px;
 }
+
+.team-list {
+  letter-spacing: 0.02em;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+   0px 1px 1px rgba(46, 47, 66, 0.16),
+  0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+
 
 .team-description {
   font-size: 16px;
@@ -675,7 +667,7 @@ img {
 .socials {
   display: flex;
   justify-content: center;
-  gap: 12px;
+  gap: 24px;
   margin-top: 8px;
   
 }
@@ -764,10 +756,19 @@ fill: var(--Pressed-State-OCEAN );
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--accent-color);
+    background-color: var(--Primary-Brand-IRIS);
     border-radius: 50%;
-    transition: background-color var(--trans-hover);
 
+}
+
+.socials-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: var(--Primary-Brand-IRIS);
+    border-radius: 50%;
 }
 
 
@@ -779,7 +780,9 @@ fill: var(--Pressed-State-OCEAN );
 
 .socials-footer {
 
-    display: flex;
-    gap: 16px;
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+  gap: 12px;
 
 }
