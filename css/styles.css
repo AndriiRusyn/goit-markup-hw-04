@@ -611,7 +611,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--Accent-CORNFLOWER);
+    color: #ffffff
 }
 
 
@@ -632,36 +632,6 @@ img {
 }
 
 
-/* .list-item::before {
-  display: block;
-  content: "";
-
-  height: 112px;
-  radius: 4px;
-
-  background-size: contain;
-  background-repeat: no-repeat;
-  background: center;
-  background-color: var(--Light-CLOUD);
-} */
-
-
-
-/* icons before */
-
-/* .icon-strategy::before {
-  background-image: url(../images/icon-strategy.svg);
-}
-.icon-punctuality::before {
-  background-image: url(../images/icon-punctuality.svg);
-}
-.icon-deligence:before {
-  background-image: url(../images/icon-deligence.svg);
-}
-.icon-technologies::before {
-  background-image: url(../images/icon-technologies.svg);
-} */
-
 /* social icons css */
 
 .socials {
@@ -674,28 +644,15 @@ img {
 
 .social-icon {
   fill: var(--Pressed-State-OCEAN);
+  /* fill: currentColor; */
 }
 
 .social-icon:hover,
 .social-icon:focus {
-  fill: var(--Primary-Brand-IRIS);
+  /* fill: var(--Primary-Brand-IRIS); */
+background-color: var(--Success-GREEN);
 }
 
-
-/* 
-.icon-advantage {
-
-  display: block;
-  content: "";
-
-  height: 112px;
-  radius: 4px;
-
-  background-size: contain;
-  background-repeat: no-repeat;
-  background: center;
-  background-color: var(--Light-CLOUD);
-} */
 
 
 
@@ -762,13 +719,13 @@ img {
 .customer-link:hover,
 .customer-link:focus {
   border-color:var(--Pressed-State-OCEAN);
-  fill: var(--Pressed-State-OCEAN);
+  color: var(--Pressed-State-OCEAN);
 }
 
 
 .icon-customer:hover,
 .icon-customer:focus {
-border-color:var(--Pressed-State-OCEAN);
+border-color:var(--Pressed-State-OCEAN); 
 fill: var(--Pressed-State-OCEAN);
 
 }
@@ -788,7 +745,7 @@ fill: var(--Pressed-State-OCEAN);
 .customer-icon:hover,
 .customer-icon:focus {
   border-color: var(--Pressed-State-OCEAN);
-  fill: var(--Pressed-State-OCEAN);
+  color: var(--Pressed-State-OCEAN);
 }
 
 .customer-icon:active {
@@ -838,6 +795,7 @@ fill: var(--Pressed-State-OCEAN);
 
 
 .social-icon-footer {
+color: var(--Light-CLOUD);
 
 }
 
