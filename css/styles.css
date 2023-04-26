@@ -634,12 +634,16 @@ img {
 }
 
 .social-icon {
-  fill: currentColor;
+  width: 100px;
+  height: 100px;
+  fill: var(--Primary-Brand-IRIS);
+  /* background-color: currentColor; */
 }
 
 .social-icon:hover,
 .social-icon:focus {
-  background-color: var(--Success-GREEN);
+  /* background-color: var(--Success-GREEN); */
+  fill: var(--Pressed-State-OCEAN)
 }
 
 /* section customers  */
@@ -682,8 +686,6 @@ img {
   height: 100%;
 
   fill: currentColor;
-  /* 
-  fill: var(--Subtle-Text-Light-Slate); */
   border: 1px solid var(--Subtle-Text-Light-Slate);
   border-radius: 4px;
 }
@@ -749,10 +751,7 @@ img {
   border-radius: 50%;
 }
 
-.socials-link-footer:hover,
-.socials-link-footer:focus {
-  background-color: var(--Success-GREEN);
-}
+
 
 .socials-link {
   display: flex;
@@ -765,12 +764,20 @@ img {
 }
 
 .social-icon-footer {
-  fill: currentColor;
+  width: 40px;
+  height: 40px;
+  fill: var(--Primary-Brand-IRIS); */
+}
+
+.social-icon-footer:hover,
+.social-icon-footer:focus {
+  fill: var(--Success-GREEN);
 }
 
 .socials-footer {
   display: flex;
   gap: 16px;
-  /* justify-content: center;
-  margin-top: 8px;  */
+  justify-content: center;
+  margin-top: 8px; 
 }
+
