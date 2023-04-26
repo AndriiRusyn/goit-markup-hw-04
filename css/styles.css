@@ -634,13 +634,11 @@ img {
 }
 
 .social-icon {
-  fill: var(--Pressed-State-OCEAN);
-  /* fill: currentColor; */
+  fill: currentColor;
 }
 
 .social-icon:hover,
 .social-icon:focus {
-  /* fill: var(--Primary-Brand-IRIS); */
   background-color: var(--Success-GREEN);
 }
 
@@ -767,12 +765,12 @@ img {
 }
 
 .social-icon-footer {
-  color: var(--Light-CLOUD);
+  fill: currentColor;
 }
 
 .socials-footer {
   display: flex;
-  justify-content: center;
-  margin-top: 8px;
   gap: 16px;
+  /* justify-content: center;
+  margin-top: 8px;  */
 }
