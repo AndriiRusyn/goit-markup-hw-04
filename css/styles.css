@@ -13,8 +13,6 @@
   --Modal-background-DAIRY: #fcfcfc;
   --Body-Backgroung: #e5e5e5;
   --card-set-gap: 48px;
-
-
 }
 
 body {
@@ -181,7 +179,8 @@ img {
 .page-header {
   border-top: none;
   border-bottom: 1px solid var(--Accent-CORNFLOWER);
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .address-info {
@@ -277,16 +276,15 @@ img {
   padding-top: 8px;
 }
 
-
 .icon-box {
-    display: flex;
-    margin-bottom: 8px;
-    justify-content: center;
-    align-items: center;
-    height: 112px;
-    /* width: 264px; */
-    background-color: var(--Light-CLOUD);
-    border-radius: 4px;
+  display: flex;
+  margin-bottom: 8px;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  /* width: 264px; */
+  background-color: var(--Light-CLOUD);
+  border-radius: 4px;
 }
 
 /* section examples of work  */
@@ -332,7 +330,6 @@ img {
   padding-top: 120px;
 }
 
-
 .team-image {
   border-radius: 0px 0px 4px 4px;
 }
@@ -369,7 +366,7 @@ img {
 .our-team {
   display: flex;
   flex-wrap: wrap;
-  gap:24px;
+  gap: 24px;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -377,11 +374,8 @@ img {
   letter-spacing: 0.02em;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-   0px 1px 1px rgba(46, 47, 66, 0.16),
-  0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
-
 
 .team-description {
   font-size: 16px;
@@ -589,34 +583,29 @@ img {
   margin-bottom: 16px;
 }
 
-
 .footer-container {
-    display: flex;
-    align-items: baseline;
-    gap: 120px;
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
 }
 
 .footer-container-one {
   margin-right: 120px;
-
 }
 
 .footer-container-two {
-
 }
 
 .footer-social-text {
-    margin-bottom: 16px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #ffffff
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
-
 /* decorative elements  */
-
 
 .overlay {
   max-width: 1440px;
@@ -624,13 +613,16 @@ img {
   margin-left: auto;
   margin-right: auto;
 
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
 
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-
 
 /* social icons css */
 
@@ -639,7 +631,6 @@ img {
   justify-content: center;
   gap: 24px;
   margin-top: 8px;
-  
 }
 
 .social-icon {
@@ -650,17 +641,14 @@ img {
 .social-icon:hover,
 .social-icon:focus {
   /* fill: var(--Primary-Brand-IRIS); */
-background-color: var(--Success-GREEN);
+  background-color: var(--Success-GREEN);
 }
-
-
-
 
 /* section customers  */
 
 .customers {
-      padding-top: 120px;
-      padding-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-customers {
@@ -676,21 +664,18 @@ background-color: var(--Success-GREEN);
   text-transform: capitalize;
 }
 
-
-
 .customers-list {
-    margin-bottom: 72px;
-    line-height: 1.15;
-    gap: 24px;
+  margin-bottom: 72px;
+  line-height: 1.15;
+  gap: 24px;
 }
 
 .customer-icon {
-    width: calc((100% - 120px) / 6);
-    height: 88px;
+  width: calc((100% - 120px) / 6);
+  height: 88px;
 }
 
-
-.icon-customer{
+.icon-customer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -698,50 +683,45 @@ background-color: var(--Success-GREEN);
   width: 100%;
   height: 100%;
 
-  fill: var(--Subtle-Text-Light-Slate);
+  fill: currentColor;
+  /* 
+  fill: var(--Subtle-Text-Light-Slate); */
   border: 1px solid var(--Subtle-Text-Light-Slate);
   border-radius: 4px;
 }
 
 .customer-link {
-
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid var(--Subtle-Text-Light-Slate);
-    border-radius: 4px;
-    color: var(--Subtle-Text-Light-Slate);
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--Subtle-Text-Light-Slate);
+  border-radius: 4px;
+  color: var(--Subtle-Text-Light-Slate);
 }
-
-
 
 .customer-link:hover,
 .customer-link:focus {
-  border-color:var(--Pressed-State-OCEAN);
+  border-color: var(--Pressed-State-OCEAN);
   color: var(--Pressed-State-OCEAN);
 }
 
-
 .icon-customer:hover,
 .icon-customer:focus {
-border-color:var(--Pressed-State-OCEAN); 
-fill: var(--Pressed-State-OCEAN);
-
+  border-color: var(--Pressed-State-OCEAN);
+  fill: var(--Pressed-State-OCEAN);
 }
 
 .customer-link:active {
-  border-color:var(--Pressed-State-OCEAN);
+  border-color: var(--Pressed-State-OCEAN);
   fill: var(--Pressed-State-OCEAN);
-  
 }
 
 .icon-customer:active {
-  border-color:var(--Pressed-State-OCEAN);
+  border-color: var(--Pressed-State-OCEAN);
   fill: var(--Pressed-State-OCEAN);
 }
-
 
 .customer-icon:hover,
 .customer-icon:focus {
@@ -750,30 +730,25 @@ fill: var(--Pressed-State-OCEAN);
 }
 
 .customer-icon:active {
- color: var(--Pressed-State-OCEAN);
+  color: var(--Pressed-State-OCEAN);
 }
-
 
 /* links footer */
 
 .footer-container-two {
- 
-
 }
 
-
 .socials-item-footer {
-
 }
 
 .socials-link-footer {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--Primary-Brand-IRIS);
-    border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Primary-Brand-IRIS);
+  border-radius: 50%;
 }
 
 .socials-link-footer:hover,
@@ -781,30 +756,23 @@ fill: var(--Pressed-State-OCEAN);
   background-color: var(--Success-GREEN);
 }
 
-
 .socials-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 40px;
-    background-color: var(--Primary-Brand-IRIS);
-    border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background-color: var(--Primary-Brand-IRIS);
+  border-radius: 50%;
 }
 
-
-
-
 .social-icon-footer {
-color: var(--Light-CLOUD);
-
+  color: var(--Light-CLOUD);
 }
 
 .socials-footer {
-
   display: flex;
   justify-content: center;
   margin-top: 8px;
   gap: 16px;
-
 }
