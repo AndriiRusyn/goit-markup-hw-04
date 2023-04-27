@@ -636,7 +636,8 @@ img {
 .social-icon {
   width: 100px;
   height: 100px;
-  fill: var(--Primary-Brand-IRIS);
+  /* fill: var(--Primary-Brand-IRIS); */
+  fill: var(--Light-CLOUD);
 }
 
 .social-icon:hover,
@@ -766,6 +767,13 @@ img {
   border-radius: 50%;
 }
 
+
+.socials-link:hover,
+.socials-link:focus {
+   background-color: var(--Pressed-State-OCEAN);
+}
+
+
 .social-icon-footer {
     width: 40px;
     height: 40px;
@@ -774,8 +782,10 @@ img {
     display: flex;
     justify-content: center;
     align-items: center; */
-    fill: var(--Primary-Brand-IRIS);
-    /* border-radius: 50%; */
+
+    /* fill: var(--Primary-Brand-IRIS); */
+    fill: var(--Light-CLOUD);
+   
 }
 
 .social-icon-footer:hover,
