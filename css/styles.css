@@ -282,7 +282,6 @@ img {
   justify-content: center;
   align-items: center;
   height: 112px;
-  /* width: 264px; */
   background-color: var(--Light-CLOUD);
   border-radius: 4px;
 }
@@ -311,6 +310,30 @@ img {
 }
 
 /* css for section our team  */
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.socials-link {
+  /* margin-top: 8px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background-color: var(--Primary-Brand-IRIS);
+  border-radius: 50%;
+}
+
+
+.socials-link:hover,
+.socials-link:focus {
+   background-color: var(--Pressed-State-OCEAN);
+}
+
+
 
 .section-title {
   font-size: 36px;
@@ -378,6 +401,8 @@ img {
 }
 
 .team-description {
+  margin-bottom: 8px;
+
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -473,7 +498,6 @@ img {
 .card-set {
   display: flex;
   flex-wrap: wrap;
-  
 }
 
 .portfolio-card {
@@ -486,7 +510,6 @@ img {
 }
 
 .project-item {
-  display: block;
   margin-right: 24px;
   margin-bottom: 48px;
   flex-basis: calc((100% - 48px) / 3);
@@ -598,15 +621,12 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
 .footer-container-one {
   margin-right: 120px;
 }
 
-.footer-container-two {
-}
 
 .footer-social-text {
   margin-bottom: 16px;
@@ -636,7 +656,6 @@ img {
   background-size: cover;
 }
 
-/* social icons css */
 
 .socials {
   display: flex;
@@ -646,16 +665,10 @@ img {
 }
 
 .social-icon {
-  width: 100px;
-  height: 100px;
-  /* fill: var(--Primary-Brand-IRIS); */
   fill: var(--Light-CLOUD);
 }
 
-.social-icon:hover,
-.social-icon:focus {
-  fill: var(--Pressed-State-OCEAN)
-}
+
 
 /* section customers  */
 
@@ -678,9 +691,13 @@ img {
 }
 
 .customers-list {
-  margin-bottom: 72px;
-  line-height: 1.15;
-  gap: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+    line-height: 1.15;
+    gap: 24px;
+
 }
 
 .customer-icon {
@@ -689,17 +706,9 @@ img {
 }
 
 .icon-customer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 100%;
-  height: 100%;
-
   fill: currentColor;
-  border: 1px solid var(--Subtle-Text-Light-Slate);
-  border-radius: 4px;
 }
+
 
 .customer-link {
   display: flex;
@@ -714,14 +723,8 @@ img {
 
 .customer-link:hover,
 .customer-link:focus {
-  border-color: var(--Pressed-State-OCEAN);
-  color: var(--Pressed-State-OCEAN);
-}
-
-.icon-customer:hover,
-.icon-customer:focus {
-  border-color: var(--Pressed-State-OCEAN);
-  fill: var(--Pressed-State-OCEAN);
+ border-color: var(--Pressed-State-OCEAN);
+ color: var(--Pressed-State-OCEAN);
 }
 
 .customer-link:active {
@@ -729,28 +732,6 @@ img {
   fill: var(--Pressed-State-OCEAN);
 }
 
-.icon-customer:active {
-  border-color: var(--Pressed-State-OCEAN);
-  fill: var(--Pressed-State-OCEAN);
-}
-
-.customer-icon:hover,
-.customer-icon:focus {
-  border-color: var(--Pressed-State-OCEAN);
-  color: var(--Pressed-State-OCEAN);
-}
-
-.customer-icon:active {
-  color: var(--Pressed-State-OCEAN);
-}
-
-/* links footer */
-
-/* .footer-container-two {
-}
-
-.socials-item-footer {
-} */
 
 .socials-link-footer {
   width: 40px;
@@ -769,33 +750,7 @@ img {
 }
 
 
-.socials-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-  width: 40px;
-  background-color: var(--Primary-Brand-IRIS);
-  border-radius: 50%;
-}
-
-
-.socials-link:hover,
-.socials-link:focus {
-   background-color: var(--Pressed-State-OCEAN);
-}
-
-
 .social-icon-footer {
-    width: 40px;
-    height: 40px;
-    
-/* 
-    display: flex;
-    justify-content: center;
-    align-items: center; */
-
-    /* fill: var(--Primary-Brand-IRIS); */
     fill: var(--Light-CLOUD);
    
 }
@@ -806,7 +761,7 @@ img {
 }
 
 .socials-footer {
-  display: flex;
+  
   justify-content: center;
   gap: 16px;
   margin-top: 8px; 
