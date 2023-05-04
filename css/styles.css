@@ -41,6 +41,11 @@ p {
   display: flex;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .link {
   font-style: normal;
   text-decoration: none;
@@ -273,10 +278,6 @@ img {
   flex-wrap: wrap;
 }
 
-.section-advantages {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 
 .description-title {
   width: 260px;
@@ -390,8 +391,6 @@ img {
 
 .team {
   background-color: var(--Light-CLOUD);
-  padding-bottom: 120px;
-  padding-top: 120px;
 }
 
 .team-image {
@@ -748,10 +747,6 @@ transform: translate(0, 0);
 
 /* section customers  */
 
-.customers {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 
 .section-customers {
   color: var(--Dark-NAVY-BLUE);
